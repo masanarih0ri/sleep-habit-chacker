@@ -1,0 +1,23 @@
+{
+  "name": "sleep-habit-checker",
+  "version": "0.1.0",
+  "description": "This is a package to check your sleep habits.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masanarih0ri/sleep-habit-checker.git"
+  },
+  "keywords": ["sleep", "habit", "checker"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masanarih0ri/sleep-habit-checker/issues"
+  },
+  "homepage": "https://github.com/masanarih0ri/sleep-habit-checker#readme",
+  "bin": {
+    "cli": "bin/cli.js"
+  }
+}
