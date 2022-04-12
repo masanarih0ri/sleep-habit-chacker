@@ -1,6 +1,6 @@
 {
   "name": "sleep-habit-checker",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "This is a package to check your sleep habits.",
   "main": "index.js",
   "scripts": {
