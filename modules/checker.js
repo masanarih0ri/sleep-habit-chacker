@@ -1,14 +1,6 @@
 // const Enquirer = require('enquirer')
 
 module.exports = class Checker {
-  constructor(answers) {
-    this.answers = answers
-  }
-
-  hi() {
-    console.log(this.answers)
-  }
-
   static introMessage() {
     console.log('                      ')
     console.log('======================')
