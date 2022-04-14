@@ -1,6 +1,9 @@
 {
   "name": "sleep-habit-checker",
-  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.1",
   "description": "This is a package to check your sleep habits.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +25,7 @@
   },
   "homepage": "https://github.com/masanarih0ri/sleep-habit-checker#readme",
   "bin": {
-    "cli": "bin/cli.js"
+    "check-my-sleep-habit": "lib/index.js"
   },
   "dependencies": {
     "enquirer": "^2.3.6"
