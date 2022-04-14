@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const Enquirer = require('enquirer')
-const Checker = require('../modules/checker.js')
+const Checker = require('./modules/checker.js')
 
 const displayResult = (answer) => {
   const answers = [answer.q1, answer.q2, answer.q3, answer.q4, answer.q5]

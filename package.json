@@ -5,9 +5,9 @@
   },
   "version": "1.0.3",
   "description": "This is a package to check your sleep habits.",
-  "main": "./lib/index.js",
+  "main": "index.js",
   "bin": {
-    "check-sleep": ".lib/index.js"
+    "check-sleep": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
